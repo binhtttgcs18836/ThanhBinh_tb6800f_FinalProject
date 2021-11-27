@@ -1,0 +1,91 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: whitesmoke;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  border-bottom: 3px black;
+  box-sizing: border-box;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+img {
+  object-fit: cover;
+  object-position: 0 20%;
+}
+
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.icons-container .icons {
+  background: #fff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex: 1 1 10rem;
+}
+
+.icons-container .icons img {
+  height: 4rem;
+  margin-right: 2rem;
+}
+
+.icons-container .icons h4 {
+  color: #333;
+  padding-bottom: 0rem;
+  font-size: 1.5rem;
+}
+
+.icons-container .icons span {
+  color: #555;
+  font-size: 1.2rem;
+}
+.home_page .h3 {
+  font-family: 'Lucida Handwriting', cursive !important;
+}
+
+/* ------------ Loading ------------ */
+@import url('./loading.css');
+
+/* ------------ Login ------------ */
+@import url('./login.css');
+
+/* ------------ Product ------------ */
+@import url('./product.css');
+
+/* ------------ Profile ------------ */
+@import url('./profile.css');
+
+/* ------------Detail_Profile ------------ */
+@import url('./abc.css');
+
+/* ------------ Footer ------------ */
+@import url('./footer.css');
+
+/* ------------ Menu2 ------------ */
+@import url('./Navbar2.css');
+
+/* ------------ Sidebar ------------ */
+@import url('./manager.css');
+
+/* ------------ Products_Manager ------------ */
+@import url('./products_manager.css');

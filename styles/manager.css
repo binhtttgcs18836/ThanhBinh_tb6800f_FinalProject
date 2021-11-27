@@ -1,0 +1,23 @@
+.sidebar ul {
+  width: 200px;
+  padding: 0;
+  list-style-type: none;
+}
+.sidebar ul li {
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 0.6cm;
+  position: relative;
+}
+.sidebar ul li a {
+  text-decoration: none;
+}
+.info {
+  background: white;
+}
+
+.mana {
+  text-align: center;
+  margin: 20px 0px;
+}
